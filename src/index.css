@@ -1,10 +1,142 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: blue;
+  font-family: helvetica, arial, serif;
+  background-color: #3a393a;
+  width: 736px;
+  margin: auto;
 }
 
+a:link {
+  color: aliceblue;
+}
+
+a:visited {
+  color: aliceblue;
+}
 nav {
-  background: red;
+  font-size: large;  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.aboutMeHeader {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.topAboutMe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+}
+
+.topLeftAboutMe {
+  text-align: center;
+  padding-right: 45px;
+}
+
+.topRightAboutMe {
+  text-align: left;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.nameDate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.name {
+  text-align: left;
+  color: #ffc01f;
+}
+
+.date {
+  text-align: right;
+  color: white;
+}
+
+.aboutText {
+  background-color: #545353;
+  color: white;
+  padding: 5px;
+}
+
+.aboutMeMiddle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.aboutMeBottom {
+  background-color: #545353;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.resumeBody {
+    color: white;
+    background-color: #545353;
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.resumeName {
+  text-align: left;
+  color: #ffc01f;
+  font-size: 32px;
+  padding: 0px;
+}
+.resumeTop {
+  display: grid;
+  grid-template-rows: .3fr .25fr 1fr;
+  
+  
+}
+
+.resumeAddress {
+  border-top: solid;
+}
+
+.resumeSummary {
+
+}
+
+.resumeHighLights {
+  display: grid;
+  grid-template-rows: .5fr 1fr;
+}
+
+.resumeHighlightPoints {
+  display: grid;
+  grid-template-columns: .6fr 1fr 1fr;
+}
+
+.resumeExperience {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
 }

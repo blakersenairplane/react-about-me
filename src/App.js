@@ -13,10 +13,14 @@ class App extends Component {
         <Router>
           <div>
             <nav>
-              <Link to="/">AboutMe </Link>
-              <Link to="/resume">Resume </Link>
-              <Link to="/projects">Projects</Link>
+              <ul>
+                <li><Link to="/">AboutMe </Link></li>
+                <li><Link to="/resume">Resume </Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+              </ul>
+              
             </nav>
+            
             
             <Route exact path="/" component={()=> <AboutMe/>} />
             <Route path="/resume" component={()=> <Resume/>} />
