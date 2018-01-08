@@ -59,7 +59,7 @@ export default class extends Component {
                 </div>
                 <div class="aboutMeBottom">
                     <p>
-                        <h3>What I am looking forward to: </h3>
+                        <h3 class="name">What I am looking forward to: </h3>
                         I am looking forward to doing a lot of mountain biking this summer.  I have a six week 
                         sabbatical from work this year that I am planning on using to do a lot of camping in my Jeep 
                         and biking over the summer.  I am also looking forward into devling more into the programing 
